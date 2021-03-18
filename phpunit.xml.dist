@@ -19,7 +19,7 @@
     verbose="true"
 >
     <testsuites>
-        <testsuite name="TallUI Test Suite">
+        <testsuite name="Spatie Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

@@ -1,2 +1,2 @@
 providers:
-  - TallUI\TalluiPackage\TalluiPackageServiceProvider
+  - Spatie\Skeleton\SkeletonServiceProvider

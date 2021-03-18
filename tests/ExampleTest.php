@@ -1,6 +1,6 @@
 <?php
 
-namespace TallUI\TalluiPackage\Tests;
+namespace Spatie\Skeleton\Tests;
 
 class ExampleTest extends TestCase
 {

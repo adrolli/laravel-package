@@ -1,16 +1,16 @@
 {
-    "name": "tallui/tallui-package",
-    "description": "Test.",
+    "name": ":vendor_name/:package_name",
+    "description": ":package_description",
     "keywords": [
-        "tallui",
-        "tallui-package"
+        ":vendor_name",
+        ":package_name"
     ],
-    "homepage": "https://github.com/tallui/tallui-package",
+    "homepage": "https://github.com/:vendor_name/:package_name",
     "license": "MIT",
     "authors": [
         {
-            "name": "Alf Drollinger",
-            "email": "alf@drollinger.info",
+            "name": ":author_name",
+            "email": ":author_email",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "TallUI\\TalluiPackage\\": "src",
-            "TallUI\\TalluiPackage\\Database\\Factories\\": "database/factories"
+            "Spatie\\Skeleton\\": "src",
+            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TallUI\\TalluiPackage\\Tests\\": "tests"
+            "Spatie\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TallUI\\TalluiPackage\\TalluiPackageServiceProvider"
+                "Spatie\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "TalluiPackage": "TallUI\\TalluiPackage\\TalluiPackageFacade"
+                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
             }
         }
     },
