@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace TallUI\TalluiPackage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TalluiPackageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'tallui-package';
 
     public $description = 'My command';
 
